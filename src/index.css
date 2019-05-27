@@ -1,13 +1,66 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background:#282c34;
+  justify-content: space-around;
+
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #34a5da;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#home {
+  font-size: 115%;
+  margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 735;
+}
+
+.buttonBox{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 5%; 
+  background-color: ;
+  border-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 200px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-around;
+  margin: 8%;
+  align-content: space-between;
+  background-color: #ebebeb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.name{
+  text-decoration: underline #34a5da
+}
+
+.number {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+#prev {
+  color: white;
+  background-color:  transparent;
+  border: transparent;
+  font-size: 30px
+}
+
+#next {
+  color: white;
+  background-color:  transparent;
+  border: transparent;
+  font-size: 30px
 }
